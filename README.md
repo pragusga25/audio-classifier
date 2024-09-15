@@ -150,7 +150,7 @@ This will train the model on the dataset, save the best model, and provide class
 ## Project Structure
 
 ```
-audio_classifier/
+audio-classifier/
 │
 ├── datasets/
 │   ├── music/
@@ -171,36 +171,4 @@ audio_classifier/
 ├── main.py
 ├── requirements.txt
 └── README.md
-```
-
-# Audio Classification Project
-
-[Bagian-bagian sebelumnya tetap sama]
-
-## Detailed Report
-
-[Bagian-bagian sebelumnya tetap sama sampai bagian Results]
-
-### Results
-
-After training and evaluating our models, we achieved the following results:
-
-```
-Best Model: RandomForest with MinMaxScaler
-Best parameters: {'model__max_depth': None, 'model__n_estimators': 100}
-Best F1-score: 0.5817
-
-Best Model Accuracy: 0.6000
-Best Model F1-score: 0.6000
-
-Classification Report:
-              precision    recall  f1-score   support
-
-       music       0.00      0.00      0.00         2
-      speech       0.80      0.80      0.80         5
-     vehicle       0.67      0.67      0.67         3
-
-    accuracy                           0.60        10
-   macro avg       0.49      0.49      0.49        10
-weighted avg       0.60      0.60      0.60        10
 ```
